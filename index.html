@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LUCY 2014 - Ciencia y Mitos</title>
+	<style>
+    body{
+        background: linear-gradient(to left, purple,violet,pink);
+        font-family: Arial, sans-serif;
+        color: white;
+        margin: 0;
+        padding: 20px;
+    }
+    .titulo-principal{
+        text-align: center;
+        font-size: 45px;
+        font-weight: 900;
+        letter-spacing: 2px;
+        text-shadow: 2px 2px 0px #00ffff;
+        margin-top: 20px;
+    }
+    .contenedor-principal{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        max-width: 1100px;
+        margin: 30px auto;
+    }
+    /* CAJA IZQUIERDA - Información */
+    .caja-info{
+        background: linear-gradient(violet, magenta, grey);
+        width: 350px;
+        padding: 30px;
+        border-radius: 20px;
+        box-shadow: 0 0 20px rgba(255,255,255,0.3);
+        text-align: center;
+    }
+    .caja-info h2{
+        color: white;
+    }
+    .caja-info p{
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: left;
+    }
+    /* CAJA DERECHA - Imagen referente */
+    .caja-imagen{
+        background: radial-gradient(violet, skyblue);
+        width: 350px;
+        padding: 20px;
+        border-radius: 20px;
+        text-align: center;
+        color: white;
+    }
+    .caja-imagen img{
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 15px;
+        border: 3px double white;
+    }
+    /* BUTTON con pseudoclases de tu foto 1 */
+    .contenedor-boton{
+        text-align: center;
+        margin: 30px 0;
+    }
+    button{
+        padding: 15px 40px;
+        font-size: 18px;
+        font-weight: bold;
+        border: none;
+        border-radius: 50px;
+        background-color: #00ffff;
+        color: #000;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    button:hover{
+        background-color: lightgreen;
+        color: white;
+        transform: scale(1.1);
+    }
+    button:active{
+        background-color: darkred;
+    }
+
+    /* Caja de más información original como en la pizarra */
+    .caja-extra{
+        background-color: #f0f0f0;
+        color: #222;
+        width: 80%;
+        max-width: 900px;
+        margin: 20px auto;
+        padding: 25px;
+        border-radius: 15px;
+        border: 3px double #ff69b4;
+    }
+    .caja-extra h2{ text-align: center; color: black; }
+    .caja-extra p{ color: #222; font-size: 16px; }
+
+    .pie{
+        text-align: center;
+        margin-top: 40px;
+        font-size: 12px;
+        opacity: 0.7;
+    }
+    li:first-child{
+        color: red;
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+
+<h1 class="titulo-principal">LUCY (2014)</h1>
+
+<div class="contenedor-principal">
+    <div class="caja-info">
+        <h2>Información</h2>
+        <p><b>LUCY</b> es una película de ciencia ficción dirigida por Luc Besson. Protagonizada por Scarlett Johansson.</p>
+        <p>Trata sobre una mujer que es obligada a transportar una droga sintética llamada CPH4, que le otorga poderes cerebrales sobrehumanos.</p>
+        <p>La película se basa en el famoso <b>mito médico de que solo usamos el 10% del cerebro.</b></p>
+        <ul>
+            <li>Ciencia Ficción</li>
+            <li>Neurociencia</li>
+            <li>Mitos Médicos</li>
+        </ul>
+    </div>
+
+    <div class="caja-imagen">
+        <h2>Imagen Referente</h2>
+        <img src="lucy.jpg" alt="Poster Lucy">
+        <p>Lucy desbloqueando el 100% de su capacidad cerebral.</p>
+    </div>
+</div>
+
+<div class="contenedor-boton">
+    <a href="lucy-info.html">
+        <button>VER CIENCIA REAL VS MITO</button>
+    </a>
+</div>
+
+<div class="caja-extra">
+    <h2>¿De qué trata?</h2>
+    <p>Lucy es una estudiante que termina atrapada en un negocio de drogas. Al romperse la bolsa de CPH4 en su cuerpo, su cerebro empieza a evolucionar del 10% al 100%, obteniendo telequinesis, control del tiempo y del cuerpo. La película mezcla acción con teorías filosóficas sobre el origen de la vida.</p>
+</div>
+
+<div class="pie">
+    Nombre: ALDAS NAYMA- Curso: 3ro Info "b"
+</div>
+
+</body>
+</html>
